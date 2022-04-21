@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Beige\ Skincare\ Product\ Landing\ Page\ Template\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+/* NAV BAR -----------*/
+.navegacion {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: fixed;
+}
+
+.logo {
+    
+}
+
+header {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+header a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav {
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 5px 0 0 0;
+    padding: 0;
+    float: right;
+    
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    display: block;
+    text-align: center;
+    
+}
+
+
+/* PRIMERA SECCION - SOL -----------*/
+
+section {
+    padding-top: 130px;
+    width: 80%;
+    margin: auto;
+}
+
+.infomasimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.sol_img {
+    display: flex;
+    
+}
+
+img {
+    width: 380px;
+    margin: auto;
+}
+
+.info {
+    margin: auto;
+}
+
+.info_extra {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    grid-gap: 10px;
+}
+
+.masinfo {
+    border: 0.3px rgb(131, 130, 130) solid;
+    display: inline-block;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.masinfo h3 {
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    font-weight: 1;
+}
+
+.masinfo p {
+    text-align: center;
+    margin: 0 0 5px 0;
+    font-size: 30px;
+}
