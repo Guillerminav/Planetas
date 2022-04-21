@@ -3,6 +3,12 @@
 
 * {
     box-sizing: border-box;
+    
+}
+
+html, body {
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -14,6 +20,8 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     color: white;
+    overflow-x: hidden;
+
 }
 
 
@@ -22,7 +30,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: fixed;
-    
     
 }
 
@@ -46,6 +53,7 @@ header a {
 
 nav {
     margin: 10px 30px;
+    
 }
 
 nav ul {
@@ -60,6 +68,7 @@ nav ul {
 
 nav li {
     display: inline;
+    
 }
 
 nav a {
@@ -69,6 +78,7 @@ nav a {
     display: block;
     text-align: center;
     
+    
 }
 
 nav a:hover {
@@ -77,18 +87,29 @@ nav a:hover {
 }
 
 
+/*SISTEMA SOLAR*/
+
+.sistema {
+    margin: 0;
+    width: 100%;
+}
+
+
+
+
 /* PRIMERA SECCION - SOL -----------*/
 
 section {
-    padding-top: 130px;
     width: 80%;
-    margin: auto;
+    margin: 50px auto;
+    padding: 100px 0;
+    
 }
 
 .infomasimg {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .sol_img {
@@ -96,8 +117,8 @@ section {
     
 }
 
-img {
-    width: 380px;
+.sol_img img {
+    width: 500px;
     margin: auto;
 }
 
@@ -130,4 +151,125 @@ img {
     text-align: center;
     margin: 0 0 5px 0;
     font-size: 30px;
+}
+
+
+/* MERCURIO */
+
+.mercurio_img {
+    display: flex;
+    justify-content: center;
+}
+
+.mercurio_img img {
+    width: 320px;
+}
+
+/* VENUS */
+
+.venus_img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.venus_img img {
+    width: 380px;
+}
+
+/* TIERRA */
+
+.tierra_img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.tierra_img img {
+    width: 400px;
+}
+
+/* MARTE */
+
+.marte_img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.marte_img img {
+    width: 280px;
+}
+
+/* JUPITER */
+
+.jupiter_img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.jupiter_img img {
+    width: 430px;
+}
+
+/* SATURNO */
+
+.saturno_img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.saturno_img img {
+    width: 680px;
+}
+
+/* URANO */
+
+.urano_img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.urano_img img {
+    width: 300px;
+}
+
+/* NEPTUNO */
+
+.neptuno_img {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.neptuno_img img {
+    width: 280px;
+}
+
+
+footer {
+    background-color: black;
+    padding: 20px 30px;
+    
+}
+
+.contacto {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.redes a {
+    font-size: 40px;
+    padding: 0 10px;
 }
